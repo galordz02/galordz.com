@@ -32,6 +32,11 @@ h1 strong{
 .proyect{
   border: 1px solid gray;
   border-radius: 5px;
+  margin-bottom: 10px;
+}
+.proyect2{
+  border: 1px solid gray;
+  border-radius: 5px;
 }
 .project-details
 {
