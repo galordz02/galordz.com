@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="galordz.css">
   </head>
   <body>
-<header>
-  <div class="">
+<header class="header">
+  <div>
     <figure>
       <img src="spiral6,5.png" alt="Logo">
     </figure>
   </div>
-<nav>
+  <nav class="menu">
   <ol>
     <li>
       <a href="#Portfolio">Portfolio</a>
@@ -29,38 +29,40 @@
 </header>
 
 
-<section>
+<section class="hero">
   <h1>Hi! I am <strong>Galo Rodriguez</strong><br> Web developer</h1>
   <img src="neon_light_circles_83499_1920x1080.jpg" width="500" height="300" alt="Main image">
 </section>
 
-<section id="Portfolio">
+<section id="portfolioX" class="portfolio">
 <h2>Portfolio</h2>
-  <article>
-<h3>Silentmonsters</h3>
-<h6>JavaScript</h6>
-<p><small><strong>Date:</strong> 14/04/2020</small></p>
-<p><small><strong>You can see it at:</strong> www.something...XD</small></p>
-<p>This was a little proyect to practice my javascript, html, and css habilities creating
-  some kind of little videogame and sellection menu, where you can choose monsters from
-  Silent Hill videogames and play with them</p>
-  <img width="500"src="Silentmoves.png" alt="">
+  <article class="proyect">
+    <h3 class="proyect-title">Silentmonsters</h3>
+    <h6 class="proyect-course">JavaScript</h6>
+    <p class="proyect-date"><small><strong>Date:</strong> 14/04/2020</small></p>
+    <p class="proyect-url"><small><strong>You can see it at:</strong> www.something...XD</small></p>
+    <p class="proyect description">This was a little proyect to practice my javascript, html, and css habilities creating
+      some kind of little videogame and sellection menu, where you can choose monsters from
+      Silent Hill videogames and play with them</p>
+      <figure class="Project-imageContainer">
+        <img class="project image" width="500"src="Silentmoves.png" alt="">
+      </figure>
   </article>
 </section>
 
 <section id="Experience">
   <h2>More about my experience</h2>
-  <article>
-    <figure>
-      <img>
-      <h3>ATM algorithm</h3>
+  <article class="event">
+    <figure class="event-imageContainer">
+      <img class="event-image">
+      <h3 class="event-title">ATM algorithm</h3>
       <p>Watch Project</p>
     </figure>
   </article>
 </section>
 
-<section>
-<form action="index.html">
+<section id="contact" class="contactX">
+<form action="index.html" class="form-email">
   <h3>Lets work together</h3>
   <label for="email">Send your email</label>
   <input type="text" placeholder="Send your email" id="email">
