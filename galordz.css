@@ -18,6 +18,9 @@ h1
   letter-spacing: -2px;
   color: white;
 }
+body{
+  margin: 0;
+}
 h1 strong{
   color:#026fff;
 }
@@ -29,14 +32,23 @@ h1 strong{
   background-repeat: no-repeat;
   background-position-x: right;
 }
+.portfolio{
+  background: #fafafa;
+}
 .proyect{
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin: 10px;
   margin-bottom: 10px;
+  padding: 20px;
+  background: white;
 }
 .proyect2{
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 20px;
+  background: white;
 }
 .project-details
 {
