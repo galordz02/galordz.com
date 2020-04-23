@@ -65,3 +65,69 @@ h1 strong{
   color: white;
   text-decoration: none;
 }
+
+.flexbox{
+display: flex;
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+  border: 1px solid;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+figure {
+  margin: 0;
+}
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+}
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.header ol {
+  display: flex;
+}
+.header {
+  background-color: #1b2127;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 90px; /* <---- solo agregamos esta linea */
+}
+.menu { /* .menu hereda de .header */
+  height: inherit;
+}
+
+.header ol { /* .header ol hereda de .menu */
+  display: flex;
+  height: inherit;
+}
+
+.header ol li { /* .header ol li hereda de .header ol */
+  height: inherit;
+}
+
+.header a { /* .header a hereda de .header ol li */
+  color: white;
+  text-decoration: none;
+  height: inherit;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px; 
+}
