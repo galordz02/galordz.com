@@ -28,6 +28,9 @@ h1 strong{
 h2{
   color:#026fff;
   text-transform: uppercase;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  margin-bottom: 40px;
 }
 .hero{
   height: 300px;
@@ -50,6 +53,23 @@ h2{
   margin-bottom: 10px;
   padding: 20px;
   background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-title{
+  font-size: 30px;
+  margin-top: 0px;
+  margin: 10px 0;
+}
+.project-course, .project-date, .project-url{
+  margin: 10px 0;
+}
+.project-description{
+  font-size: 20px;
+}
+.project strong{
+  font-family: 'Fjala', sans-serif;
 }
 .proyect2{
   border: 1px solid gray;
