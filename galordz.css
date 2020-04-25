@@ -170,6 +170,16 @@ figure {
 .footer img{
   vertical-align: middle;
 }
+.event-list{
+  display: flex;
+}
 .event{
   border: 1px solid red;
+  margin: 10px;
+  width: 480px;
+}
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
 }
