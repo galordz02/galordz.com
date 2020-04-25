@@ -173,13 +173,17 @@ figure {
 .event-list{
   display: flex;
 }
+.event-list-title{
+  margin-left: 20px;
+}
 .event{
-  border: 1px solid red;
+  border: 1px ;
   margin: 10px;
   width: 480px;
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
+  background: #f4fbff;
 }
 .event img{
   width: 480px;
@@ -187,5 +191,20 @@ figure {
   object-fit: cover;
 }
 .event-details{
-  margin: 20px;
+  margin: 20px 40px;
+  margin-top: -40px;
+  background: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+.event-description{
+  text-align: center;
+}
+.urla{
+  border: 1px solid;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #056fff;
+  border-radius: 5px;
 }
