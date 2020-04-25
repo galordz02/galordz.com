@@ -170,3 +170,6 @@ figure {
 .footer img{
   vertical-align: middle;
 }
+.event{
+  border: 1px solid red;
+}
