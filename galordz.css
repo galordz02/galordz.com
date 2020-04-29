@@ -208,3 +208,28 @@ figure {
   color: #056fff;
   border-radius: 5px;
 }
+.contactX{
+  background-color: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social{
+}
+.social-link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  background-size: 50px 50px;
+}
+.social-link.github{
+  background-image: url('github.svg');
+  background-size: 50px 50px;
+}
+.social-link.linkedin{
+  background-image: url('twitter.svg');
+  background-size: 50px 50px;
+}
