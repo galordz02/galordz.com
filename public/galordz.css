@@ -52,17 +52,17 @@ h2{
 }
 
 .portfolio{
-  background: #fafafa;
+  background: #3b4957;
   padding: 20px;
 }
 
-.proyect{
-  border: 1px solid gray;
+.proyect, .proyect2{
+  border: 1px solid #3b4957;
   border-radius: 10px;
   margin: 10px;
   margin-bottom: 10px;
   padding: 20px;
-  background: white;
+  background: #dceef2;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,14 +84,6 @@ h2{
 
 .project strong{
   font-family: 'Fjala', sans-serif;
-}
-
-.proyect2{
-  border: 1px solid gray;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-  background: white;
 }
 
 .project-details{
@@ -202,10 +194,13 @@ figure {
 .event-list{
   display: flex;
   flex-wrap: wrap;
+  background-color: #3b4957;
+  padding-bottom: 50px; 
 }
 
 .event-list-title{
-  margin-left: 20px;
+  width: 1000px;
+  margin: 50px 0px 25px 180px;
 }
 
 .event{
@@ -215,7 +210,7 @@ figure {
   flex-shrink: 0;
   border-radius: 10px;
   overflow: hidden;
-  background: #f4fbff;
+  background: #95b4ba;
   flex-wrap: wrap;
 }
 
@@ -278,6 +273,16 @@ figure {
 
 .container{
   width: 1000px;
+  margin: 0 auto;
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
+}
+
+.container2{
+  width: 1250px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
