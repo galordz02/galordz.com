@@ -45,25 +45,8 @@ h2{
   background-color: #1b2127;
   color: white;
   display: flex;
-}
-
-.header {
-  background-color: #1b2127;
-  color: white;
-  display: flex;
   justify-content: space-between;
-}
-
-.header ol {
-  display: flex;
-}
-
-.header {
-  background-color: #1b2127;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  height: 90px; /* <---- solo agregamos esta linea */
+  height: 90px;
 }
 
 .menu { /* .menu hereda de .header */
@@ -133,10 +116,11 @@ h2{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: #0d4170;
 }
 
 .project-title{
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 0px;
   margin: 10px 0;
 }
@@ -154,7 +138,7 @@ h2{
 }
 
 .project-details{
-  width: 500px;
+  width: 900px;
 }
 
 .Project-imageContainer{
@@ -276,6 +260,9 @@ figure {
 }
 /** Ends contact section}}}}}}}}}}}}}}}}}}}}**/
 
+
+
+
 .container{
   width: 1000px;
   margin: 0 auto;
@@ -306,4 +293,9 @@ figure {
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
+}
+
+.urlb{
+  text-decoration: none;
+  color: #0d4170;
 }
