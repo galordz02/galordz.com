@@ -299,3 +299,26 @@ figure {
   text-decoration: none;
   color: #0d4170;
 }
+
+.Bimg{
+  border: 1px ;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.Bimgs{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.Bimg2{
+  border: 1px ;
+  margin: 10px auto;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.Bimgs2{
+  width: 500px;
+  margin: 0 auto;
+}
