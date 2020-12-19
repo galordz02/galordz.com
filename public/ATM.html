@@ -1,67 +1,52 @@
 <!DOCTYPE html>
-<html lang="" dir="ltr">
-
-  <head>
-    <meta charset="utf-8">
-    <title>ATM</title>
-    <link rel="icon" type="spiral9.png" href="images/spiral9.png">
-    <link rel="stylesheet" href="galordz.css">
-  </head>
-
-  <body background="images/gold.jpg">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <head>
+      <meta name="viewport" content="target-densitydpi=device-dpi, initial-scale=1.0, user-scalable=no" />
+    </head>
+    <title>Galordz</title>
+    <link rel="icon" type="spiral6.png" href="images/spiral6.png">
+    <link rel="stylesheet" href="css/portrait_mobile.css">
+    <link rel="stylesheet" href="css/landscape_mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+</head>
+<body background="images/gold.jpg">
     <header class="header">
-      <div class="container2">
-        <figure class="logo">
-          <img src="images/spiral6,5.png" height="50px" alt="Logo">
-        </figure>
-        <nav class="menu">
-          <ol>
-            <li>
-              <a class="link" href="index.html">Home</a>
-            </li>
-            <li>
-              <a class="link" href="hyperblog.html">Blog</a>
-            </li>
-            <li>
-              <a class="link" href="proyects.html">Projects</a>
-            </li>
-          </ol>
-        </nav>
-      </div>
+        <div class="container">
+            <div class="logo">
+              <a href="index.html" class="logoImage"></a>
+            </div>
+            <nav class="menu">
+              <ol>
+                <li>
+                  <a class="link" href="projects.html">Projects</a>
+                </li>
+                <li>
+                  <a class="link" href="blog.html">Blog</a>
+                </li>
+                <li>
+                  <a class="link" href="projects.html">Login</a>
+                </li>
+              </ol>
+            </nav>
+        </div>
     </header>
 
-    <div class="container">
-      <p><img src="images/cajero.gif" alt=""></p>
-      <input type="number" id="money">
-      <button name="button" id="remove">Extract</button>
-      <p id = "result"></p>
-      <script src="ATM.js"></script>
-    </div>
-
-    <section id="contact" class="contactX">
-      <div class="container2">
-        <form action="index.html" class="form-email">
-          <h3>Lets work together</h3>
-          <label for="email">Send an email: rgrs.g149@gmail.com</label>
-        </form>
-        <div class="social">
-          <a href="https://github.com/galordz02" class="social-link github"></a>
-          <a href="https://www.linkedin.com/in/ra%C3%BAl-galo-108a27198/?locale=en_US" class="social-link linkedin"></a>
-        </div>
-      </div>
-    </section>
+    <div class="content">      
+        <p><img src="images/cajero.gif" alt=""></p>
+        <input type="number" id="money">
+        <button name="button" id="remove">Extract</button>
+        <p id = "result"></p>
+        <script src="ATM.js"></script>
+  </div>
 
     <footer class="footer">
-      <div class="container2">
-        <div>
-          <p>Made with the web development course 2018 <img src="images/spiral6,5.png"width="80px" alt=""></p>
-        </div>
-        <div>
-          <p>Made with love by Raúl Galo Rodríguez Segura</p>
-        </div>
-      </div>
+        <div class="gmail">Let's work together: rgrs.g149@gmail.com</div>
+        <div class="social">
+            <a href="https://github.com/galordz02" class="social-link github"></a>
+            <a href="https://www.linkedin.com/in/ra%C3%BAl-galo-108a27198/?locale=en_US" class="social-link linkedin"></a>
+        </div>  
     </footer>
-
-  </body>
-
+</body>
 </html>

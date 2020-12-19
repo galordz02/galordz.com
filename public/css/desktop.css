@@ -1,0 +1,81 @@
+@media screen and (min-width:1024px){
+    /** Starts header section {{{{{{{{{{{{{{{{{{{{**/
+        .header{
+            height: 10vh;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .header ol {
+        }
+        .header a {
+            font-size: 2.5vh;
+        }
+        /** ends header section }}}}}}}}}}}}}}}}}}}}**/
+    
+        /** Starts BLOG content section {{{{{{{{{{{{{{{{{{{{**/
+        .Bname_container{
+            margin: 2% 40%;
+        }
+        .Bname{
+            font-size: 6vh;
+        }
+        .BlogTitle{
+            font-size: 4vh;
+        }
+        .Bdate{
+            font-size: 3vh;  
+        }
+
+
+        /**BLOGS**/
+        .articleTitle{
+            font-size: 6vh;
+            margin: 5%;
+        }
+        .article_content_container{
+            font-size: 3vh;
+            margin: 0% 10% 10% 10%;
+        }
+        .Bimgs1{
+            height: 300px;
+            width: 500px;
+        }
+
+        /** ends BLOG content section }}}}}}}}}}}}}}}}}}}}**/
+
+        /** Starts Projects section {{{{{{{{{{{{{{{{{{{{**/
+        .project{
+            width: 864px;
+        
+        }
+        
+        .project-image{
+            height: 384px;
+            width: 864px;
+        }
+            
+        /** Ends Projects content section }}}}}}}}}}}}}}}}}}}}**/
+
+
+        /** Starts footer section {{{{{{{{{{{{{{{{{{{{**/
+        .footer {
+            height: 10vh;    
+        }
+        .social{
+            width: 30vw;
+        }
+        .gmail{
+            font-size: 2.5vh;
+            height: 6.5vh;    
+            padding-top: 3.5vh;
+        }
+        .social-link{
+            margin: 0 30px;
+            background-size: 50px 50px;
+            padding: 0 0 0 0;
+          }
+           
+        /** ends footer section }}}}}}}}}}}}}}}}}}}}**/        
+}
