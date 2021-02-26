@@ -1,0 +1,54 @@
+.footer{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+
+}
+.footer {
+    background-color: #1b2127;
+    color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gmail{
+    width: 50%;
+    height: 65%;
+    font-size: 2.5vh;
+    margin: 0 0 0 0;
+    padding: 0 0 0 5%;
+}
+.social{
+    width: 150px;
+    height: 50px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    display: flex;
+}
+.social-link{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-size: 50px 50px;
+    padding: 0 0 0 0;
+}
+.social-link.github{
+    background-image: url('../imgs/github.svg');
+    background-size: 50px 50px;
+}
+  
+.social-link.linkedin{
+    background-image: url('../imgs/linkedin.png');
+    background-size: 50px 50px;
+}
+
+@media screen and (orientation:landscape){
+    .footer {
+        height: 18vh;    
+    }
+    .gmail{
+        height: 4.5vh;
+        font-size: 4.5vh;
+    }   
+}

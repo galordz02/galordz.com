@@ -1,0 +1,60 @@
+.project {
+    width: 250px;
+    padding: 0%;
+    margin: 2vh 2vh;
+    display: flex;
+    justify-content:center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border: 3px solid #1b2127;
+    background-color: #1b2127;
+    height: 35vh;
+
+}
+
+.project_image {
+    height: 140px;
+    width: 250px;
+}
+
+.project_text {
+    width: 250px;
+    padding: 0%;
+    margin: 2vh 0 2vh 0;
+    display: flex;
+    justify-content:center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+
+}
+
+.project_text > h4, .project_text > p {
+    color: orange !important;
+    width: inherit;
+    display: flex;
+    justify-content:center;
+    margin: 2px;
+    text-align: center;
+    
+}
+
+a:visited, a:hover, a:active, a:focus, a:any-link {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+@media screen and (orientation:landscape){
+    .project{
+        width: 432px;
+        margin: 4vh 0 4vh 0;
+        height: 85vh;
+
+    }
+    .project_image{
+        height: 192px;
+        width: 432px;
+    }
+
+}
+
+

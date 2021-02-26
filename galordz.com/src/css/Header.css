@@ -1,0 +1,71 @@
+.header, .container, .logo, .menu{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+.header{
+    background-color: #1b2127;
+    color: white;
+    height: 10vh;
+}
+.container{
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 117px;
+    height: 50px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 1vw;
+    display: flex;
+}
+.logoImage{
+    width: 117px;
+    height: 50px;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    background-image: url('../imgs/spiral6,5.png');
+    background-size: 117px 50px;
+
+}
+.menu{
+    height: 2.5vh;
+    width: 50vw;
+    align-items: center;
+    flex: 100%;
+}
+.header ol {
+    height: 2.5vh;
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    align-items: center;
+}
+.header li {
+    width: 50%;
+    text-align: center;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    height: inherit;
+    padding: 0 0 0 0;
+    font-size: 2.5vh;
+}
+hr {
+    height: 40px;
+}
+
+@media screen and (orientation:landscape){
+    .header{
+        height: 18vh;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header a {
+        font-size: 4.5vh;
+    }
+}

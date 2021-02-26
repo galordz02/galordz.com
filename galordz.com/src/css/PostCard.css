@@ -1,0 +1,35 @@
+.postCard {
+    width: 250px;
+    padding: 0%;
+    margin: 2vh 2vh;
+    display: flex;
+    justify-content:center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    height: 40vh;
+    background-color:rgb(255, 205, 111);
+}
+
+.postName {
+    color: rgb(255, 189, 67);
+    width: inherit;
+    text-align: center;
+    padding: 4px 0 0 0;
+    margin: 0;
+    background-color: #1b2127;
+
+}
+
+.postCardImg {
+    height: 140px;
+    width: 250px;
+
+}
+
+.postCard > p {
+    color:#1b2127;
+    font-weight: 700;
+    margin: 2px;
+    text-align: center;
+
+}

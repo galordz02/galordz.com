@@ -1,0 +1,29 @@
+.hero {
+    height: 45%;
+    width: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+.hero__title {
+    font-size: 60px;
+    width: 100%;
+    margin: 0 0;
+    padding-top: 8%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hero__description {
+    font-size:20px;
+    width: 80%;
+    margin: 5% 10%;
+    text-align: center;
+}
+
+@media screen and (orientation:landscape){
+    .hero {
+        height: 70%;
+
+    }
+}

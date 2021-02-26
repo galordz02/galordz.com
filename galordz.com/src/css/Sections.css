@@ -1,0 +1,40 @@
+.sections {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    height: 45%;
+}
+
+.section {
+    padding: 1%;
+    width: 45%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-decoration: none;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.section.one {
+    background-color: #1b2127;
+    color: orange;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.section.two {
+    background-color: rgb(255, 189, 67);
+    color: #1b2127;
+    margin-left: 2%;
+    margin-right: 3%;
+}
+
+@media screen and (orientation:landscape){
+    .section {
+        height: 65%;
+
+    }
+}
