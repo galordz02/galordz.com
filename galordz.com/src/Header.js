@@ -15,7 +15,7 @@ function Header() {
                 </li>
                 <hr/>
                 <li>
-                  <a className="link" href="/vlog">Blog</a>
+                  <a className="link" href="/vlog">Vlog</a>
                 </li>
               </ol>
             </nav>

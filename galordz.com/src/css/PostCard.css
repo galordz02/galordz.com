@@ -6,7 +6,7 @@
     justify-content:center;
     flex-shrink: 0;
     flex-wrap: wrap;
-    height: 40vh;
+    height: 45vh;
     background-color:rgb(255, 205, 111);
 }
 
@@ -32,4 +32,19 @@
     margin: 2px;
     text-align: center;
 
+}
+
+@media screen and (orientation:landscape){
+    .postCard {
+        width: 432px;
+        margin: 4vh 0 4vh 0;
+        height: 90vh;
+
+    }
+    .postCardImg {
+        height: 192px;
+        width: 432px;
+    
+    }
+    
 }

@@ -1,0 +1,38 @@
+.post__content {
+    flex: 1 0 auto;
+    background-color: white;
+}
+.article_Title_container{
+    display: flex;
+    justify-content: center;
+}
+.articleTitle{
+    font-size: 4vh;
+    color:orange;
+    margin: 10% 0 0 0;
+    padding: 0 0 0 0;
+}
+.article_content_container{
+    font-size: 3vh;
+    color: #1b2127;
+    margin: 10% 10%;
+    padding: 0 0 0 0;
+}
+.Bimgs_container{
+    display: flex;
+    justify-content: center;
+}
+.Bimgs1{
+    height: 200px;
+    width: 280px;
+}
+
+@media screen and (orientation:landscape){
+    .article_content_container{
+        font-size: 4.5vh;
+
+    }
+    .articleTitle{
+        font-size: 6vh;
+    }
+}

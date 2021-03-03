@@ -11,6 +11,9 @@ import {
 } from "react-router-dom";
 import Projects from './Projects';
 import Vlog from './Vlog.js'
+import Post1 from './Posts/Post1.js';
+import Post2 from './Posts/Post2.js';
+import Post3 from './Posts/Post3.js';
 
 function App() {
   return (
@@ -27,6 +30,23 @@ function App() {
           <Vlog/>
           <Footer/>
         </Route>
+
+        <Route path="/post1">
+          <Header/>
+          <Post1/>
+          <Footer/>
+        </Route>
+        <Route path="/post2">
+          <Header/>
+          <Post2/>
+          <Footer/>
+        </Route>
+        <Route path="/post3">
+          <Header/>
+          <Post3/>
+          <Footer/>
+        </Route>
+
         <Route path="/">
           <Hero/>
           <Sections/>

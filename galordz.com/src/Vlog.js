@@ -15,7 +15,7 @@ function Vlog() {
                 postDescription="The phisical and
                 mechanical mechanisms that make ships
                 and submarines work"
-                link="/projects"
+                link="/post3"
 
             />
             <PostCard
@@ -24,7 +24,7 @@ function Vlog() {
                 postDate="Date: 20/08/2020"
                 postDescription="Why and how I'm
                 learning russian"
-                link=""
+                link="/post2"
 
             />
             <PostCard
@@ -33,7 +33,7 @@ function Vlog() {
                 postDate="Date: 16/05/2020"
                 postDescription="How I created 
                 galordz.com"
-                link=""
+                link="/post1"
 
             />
 
