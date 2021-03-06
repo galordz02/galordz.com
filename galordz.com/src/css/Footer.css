@@ -52,3 +52,14 @@
         font-size: 4.5vh;
     }   
 }
+
+@media (min-width: 1025px) {
+    .footer {
+        height: 10%;    
+    }
+    .gmail{
+        height: 15px;
+        font-size: 15px;
+    }   
+
+}

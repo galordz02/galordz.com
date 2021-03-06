@@ -27,3 +27,10 @@
 
     }
 }
+@media (min-width: 1025px) {
+    .hero {
+        height: 45%;
+
+    }
+
+}

@@ -8,3 +8,8 @@
     margin: 0%;
     background-color:  white;
 }
+@media (min-width: 1025px) {
+    .vlog{
+        height: 80%;
+    }
+}

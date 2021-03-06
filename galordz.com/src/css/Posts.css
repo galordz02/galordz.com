@@ -36,3 +36,15 @@
         font-size: 6vh;
     }
 }
+@media (min-width: 1025px) {
+    .article_content_container{
+        font-size: 1em;
+        margin: 5% 10%;
+    }
+    .articleTitle{
+        font-size: 2em;
+        margin: 5% 0 0 0;
+    }
+
+}
+

@@ -69,3 +69,22 @@ hr {
         font-size: 4.5vh;
     }
 }
+
+@media (min-width: 1025px) {
+    .header{
+        height: 10%;
+    }
+    .header a {
+        font-size: 15px;
+    }
+    hr {
+        height: 30px;
+    }
+    .container{
+        height: 100%;
+    }
+    .link{
+        height: 100%;
+    }
+    
+}

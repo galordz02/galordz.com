@@ -18,6 +18,7 @@ function Projects() {
                 image= {atm}
                 name="ATM"
                 description="An atm simulator"
+                link=""
             />
             <Project
                 image= {Silentmoves}
